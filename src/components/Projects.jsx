@@ -55,6 +55,11 @@ export function Projects() {
                      <p>In this app I created a server using NodeJS, Registration and Login Page in React. When user register the data is sent to Node server and then user must login with same credentials to get access. If credentials are not the same, Error Page is loaded and user can not enter. Click <a href='https://imgur.com/a/xIOaaUG' target='_blank' rel='noopener noreferrer'>here</a> for the pictures of an app.
                     </p>
                 </div>
+                <div className='projects-div'>
+                <h4><a href='https://github.com/Josip007/JS---Tic-Tac-Toe' target='_blank' rel="noopener noreferrer">Tic-Tac-Toe--Javascript</a></h4>
+                     <p>Tic-tac-toe game using vanilla Javascript. Click <a href='https://imgur.com/a/sbNf7Re' target='_blank' rel='noopener noreferrer'>here</a> for the picture of a game.
+                    </p>
+                </div>
             </main>
             <div className='line'></div>
             <footer className='projects-footer'>
