@@ -5,7 +5,7 @@ export function WorkExperience() {
     return (
         <div className="experience-container">
             <div className="experience-banner">
-                <h2>Work Experience</h2>
+                <h2 className='banner-h2'>Work Experience</h2>
             </div>
             <div className='line'></div>
             <div className='experience-grid'>

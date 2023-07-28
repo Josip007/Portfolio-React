@@ -11,7 +11,7 @@
     width: 70vw;
     left: 50%;
     transform: translateX(-50%);
-    height: 7.2rem;
+    height: fit-content;
     top: 0;
     display: flex;
     justify-content: space-around;
@@ -24,6 +24,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     & li {
         width: 4em;
         height: 2em;
@@ -50,4 +53,18 @@
     text-align: center;
     margin-top: 0.2em;
     font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-ul {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 1rem;
+        padding: 0;
+    }
+    .home {
+        height: fit-content;
+    }
+
 }

@@ -80,6 +80,7 @@
 .projects-footer {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     font-size: 2rem;
     margin-bottom: 1rem;
     & a {

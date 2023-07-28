@@ -6,7 +6,7 @@ export function Education() {
         <div className='education-container'>
             <div className="education-div">
                 <header className='education-header'>
-                    <h2>Education</h2>
+                    <h2 className='banner-h2'>Education</h2>
                 </header>
             </div>
             <div className='line'></div>
