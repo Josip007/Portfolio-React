@@ -1,0 +1,89 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 1);
+    min-height: 100vh;
+    color: whitesmoke;
+    scroll-behavior: smooth;
+}
+
+.banner {
+    background: url('https://r4.wallpaperflare.com/wallpaper/599/811/829/computer-code-programming-php-wallpaper-117e0ae1c2da04de0a512b0f0155717d.jpg') center/cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & h1 {
+        font-size: 7rem;
+        color: whitesmoke;
+    }
+}
+
+.projects-main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-size: 1.4rem;
+    & a {
+        color: rgba(66, 190, 66);
+    }
+    .projects-div {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: .4rem;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        line-height: 1.7rem;
+        text-align: center;
+        min-height: 15rem;
+    }
+    & h4 {
+        text-decoration: underline;
+        text-underline-offset: 0.4rem;
+    }
+    .github-paragraph {
+        padding: 3rem 0 0 3rem;
+        display: flex;
+        justify-content: center;
+        .arrow {
+            margin-left: 2rem;
+            height: 1.6rem;
+            width: 2rem;
+        }
+    }
+    
+}
+.projects-hr {
+    color: white;
+    width: 100%;
+    margin-top: 1.4rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .projects-main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.projects-footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    & a {
+        color: white;
+        padding: 1rem;
+    }
+}
