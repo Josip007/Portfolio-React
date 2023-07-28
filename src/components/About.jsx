@@ -21,8 +21,8 @@ export function About() {
 
     return (
         <div className='about-container'>
-            <div className='pillar1'>
-                    <FaBars onMouseEnter={handleMouseMove} />
+            <div className='pillar pillar1'>
+                    <FaBars className='fabars' onMouseEnter={handleMouseMove} />
                     {hamburgerMenu && 
                         <div className='hamburger-list' onMouseLeave={handleMouseMove}>
                             <ul>
@@ -35,7 +35,7 @@ export function About() {
                         </div>}         
             </div>          
 
-            <div className='pillar2'>
+            <div className='pillar pillar2'>
                 <h2>Hello and welcome to my <em>About me</em> Page!</h2>
                 <p>My name is Josip Bošnjaković. I was born in Našice, small city in Slavonija, but lived most of my life in Vukojevci, village near Našice. Since the early age, i loved everything about technology, as soon as i got my first PC i was always exploring what I can do on it. That is how i learned in early age to boot windows, download and install video games etc.</p>
                     <div className='about-hr'></div>
@@ -49,8 +49,8 @@ export function About() {
                 <p className='footer'>Thank you and please enjoy the rest of the site.</p>
             </div>
 
-            <div className='pillar3'>
-                <h1>Stupac tres!</h1>
+            <div className='pillar pillar3'>
+                
             </div>
         </div>
     );
